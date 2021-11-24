@@ -1,0 +1,54 @@
+.hero {
+  margin: 105px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .hero__decoration__left {
+    display: inline-flex;
+    justify-content: flex-start;
+  }
+
+  .hero__block {
+    justify-content: center;
+
+
+    h3 {
+      color: $colour_active;
+    }
+
+    .hero__block__decor {
+      max-width: 530px;
+      img {
+        width: 100%;
+      }
+
+    }
+
+    .hero__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      p {
+        padding-top: 18px;
+        max-width: 164px;
+      }
+
+      button {
+        margin-left: 28px;
+      }
+    }
+  }
+
+  .hero__decoration__right {
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: black;
+}

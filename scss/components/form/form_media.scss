@@ -1,0 +1,65 @@
+@media (max-width: 992px) {
+.form {
+  .container {
+    max-width: 624px;
+
+    .input-group {
+      width: 240px;
+    }
+
+    .form-control {
+      width: 240px;
+    }
+  }
+}
+
+
+}
+
+@media (max-width: 768px) {
+  .form {
+    .container {
+      max-width: 272px;
+
+      .form__content {
+        padding-top: 24px;
+
+        .form-control {
+          width: 240px;
+          margin: 0 16px;
+
+          .form__telephone {
+            width: 50%;
+          }
+        }
+
+        .input-group {
+          margin: 0 16px;
+
+        }
+      }
+    }
+  }
+}
+
+#textarea {
+  @media (max-width: 992px) {
+    width: 496px;
+  }
+
+  @media (max-width: 768px) {
+    width: 240px;
+  }
+}
+
+#form__telephone {
+  @media (max-width: 992px) {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  @media (max-width: 768px) {
+    width: 50%;
+    margin-right: 0;
+  }
+}

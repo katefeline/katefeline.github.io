@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+  .header {
+    .navbar {
+      .navbar-toggler {
+        .navbar-toggler-icon {
+          background-image: url("./../img/burger.png");
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  header {
+    .header__logo {
+      .header__navigation {
+
+        .header__call_us {
+          display: none;
+        }
+
+        .navbar__menu {
+          display: none;
+        }
+      }
+    }
+  }
+}
